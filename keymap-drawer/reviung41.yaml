@@ -1,0 +1,170 @@
+layout: {qmk_keyboard: reviung/reviung41}
+layers:
+  default:
+  - TAB
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - BSPC
+  - LCTRL
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - {t: RET, h: RSHFT}
+  - LGUI
+  - lower
+  - SPACE
+  - raise
+  - RALT
+  lower:
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - DEL
+  - {t: ▽, type: trans}
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - '`'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - '~'
+  - {t: ▽, type: trans}
+  - ESC
+  - LGUI
+  - LALT
+  - CLCK
+  - '"'
+  - HOME
+  - END
+  - PG UP
+  - PG DN
+  - PSCRN
+  - {t: SPACE, h: RSHFT}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - RET
+  - adjust
+  - {t: ▽, type: trans}
+  raise:
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - DEL
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - ESC
+  - LGUI
+  - RALT
+  - CLCK
+  - '"'
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - adjust
+  - BSPC
+  - {type: held}
+  - {t: ▽, type: trans}
+  adjust:
+  - RGB BRI
+  - RGB SAI
+  - RGB HUI
+  - RGB EFF
+  - ''
+  - RGB TOG
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - BT CLR
+  - RGB BRD
+  - RGB SAD
+  - RGB HUD
+  - RGB EFR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&soft_off'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: adjust, h: toggle}
+  - {type: held}
+  - {t: ▽, type: trans}

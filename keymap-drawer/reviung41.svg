@@ -82,6 +82,10 @@ text.shifted {
     dominant-baseline: hanging;
 }
 
+text.layer-activator {
+    text-decoration: underline;
+}
+
 /* styling for hold/shifted label text in combo box */
 text.combo.hold, text.combo.shifted {
     font-size: 8px;
@@ -113,7 +117,7 @@ path.combo {
 /* End Tabler Icons Cleanup */
 </style>
 <g transform="translate(30, 0)" class="layer-default">
-<text x="0" y="28" class="label">default:</text>
+<text x="0" y="28" class="label" id="default">default:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 58)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -262,28 +266,30 @@ path.combo {
 </g>
 <g transform="translate(196, 226)" class="key keypos-36">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">LALT</text>
 </g>
 <g transform="translate(266, 226)" class="key keypos-37">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
-<text x="0" y="0" class="key tap">lower</text>
-</g>
+<a href="#lower">
+<text x="0" y="0" class="key tap layer-activator">lower</text>
+</a></g>
 <g transform="translate(364, 226)" class="key keypos-38">
 <rect rx="6" ry="6" x="-61" y="-26" width="122" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
 </g>
 <g transform="translate(462, 226)" class="key keypos-39">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
-<text x="0" y="0" class="key tap">raise</text>
-</g>
+<a href="#raise">
+<text x="0" y="0" class="key tap layer-activator">raise</text>
+</a></g>
 <g transform="translate(532, 226)" class="key keypos-40">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RALT</text>
+<text x="0" y="0" class="key tap">RGUI</text>
 </g>
 </g>
 </g>
 <g transform="translate(30, 310)" class="layer-lower">
-<text x="0" y="28" class="label">lower:</text>
+<text x="0" y="28" class="label" id="lower">lower:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 58)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -447,8 +453,9 @@ path.combo {
 </g>
 <g transform="translate(462, 226)" class="key keypos-39">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
-<text x="0" y="0" class="key tap">adjust</text>
-</g>
+<a href="#adjust">
+<text x="0" y="0" class="key tap layer-activator">adjust</text>
+</a></g>
 <g transform="translate(532, 226)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
@@ -456,7 +463,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 620)" class="layer-raise">
-<text x="0" y="28" class="label">raise:</text>
+<text x="0" y="28" class="label" id="raise">raise:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 58)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -608,8 +615,9 @@ path.combo {
 </g>
 <g transform="translate(266, 226)" class="key keypos-37">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
-<text x="0" y="0" class="key tap">adjust</text>
-</g>
+<a href="#adjust">
+<text x="0" y="0" class="key tap layer-activator">adjust</text>
+</a></g>
 <g transform="translate(364, 226)" class="key keypos-38">
 <rect rx="6" ry="6" x="-61" y="-26" width="122" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BSPC</text>
@@ -624,7 +632,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 931)" class="layer-adjust">
-<text x="0" y="28" class="label">adjust:</text>
+<text x="0" y="28" class="label" id="adjust">adjust:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 58)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -785,8 +793,9 @@ path.combo {
 </g>
 <g transform="translate(364, 226)" class="key keypos-38">
 <rect rx="6" ry="6" x="-61" y="-26" width="122" height="52" class="key"/>
-<text x="0" y="0" class="key tap">adjust</text>
-<text x="0" y="24" class="key hold">toggle</text>
+<a href="#adjust">
+<text x="0" y="0" class="key tap layer-activator">adjust</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(462, 226)" class="key held keypos-39">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key held"/>

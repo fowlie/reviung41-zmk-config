@@ -37,11 +37,11 @@ layers:
   - .
   - /
   - {t: RET, h: RSHFT}
-  - LGUI
+  - LALT
   - lower
   - SPACE
   - raise
-  - RALT
+  - RGUI
   lower:
   - {t: ▽, type: trans}
   - '!'

@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - RET
-  - adjust
+  - extra
   - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
@@ -122,11 +122,11 @@ layers:
   - F11
   - F12
   - {t: ▽, type: trans}
-  - adjust
+  - extra
   - BSPC
   - {type: held}
   - {t: ▽, type: trans}
-  adjust:
+  extra:
   - RGB BRI
   - RGB SAI
   - RGB HUI
@@ -143,13 +143,13 @@ layers:
   - RGB SAD
   - RGB HUD
   - RGB EFR
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - ''
   - ''
   - ''
@@ -158,13 +158,13 @@ layers:
   - ''
   - ''
   - '&sys_reset'
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
   - '&soft_off'
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: adjust, h: toggle}
+  - {t: extra, h: toggle}
   - {type: held}
   - {t: ▽, type: trans}

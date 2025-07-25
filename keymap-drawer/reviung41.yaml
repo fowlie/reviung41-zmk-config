@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: reviung/reviung41}
+layout: {zmk_keyboard: reviung41}
 layers:
   default:
   - TAB
